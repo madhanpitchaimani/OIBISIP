@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #ffd700;
+    transition: color 0.3s ease;
+}
+
+.header {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.home {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.About {
+    padding: 50px;
+    text-align: center;
+}
+
+.About h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.About p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.image a {
+    margin-right: 20px;
+}
+
+.image a:hover {
+    color: #ffd700;
+}
+
+.Education {
+    padding: 100px 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.timeline-items {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.timeline-items::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #000;
+    left: calc(50% - 1px);
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+    padding-right: 0;
+    padding-left: calc(50% + 30px);
+    text-align: left;
+}
+
+.timeline-item:nth-child(even) {
+    padding-left: 0;
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+
+.timeline-dot {
+    height: 21px;
+    width: 21px;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10%;
+}
+
+.timeline-date {
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    margin: 6px 0 15px;
+}
+
+.timeline-content {
+    background-color: #f9f9f9;
+    color: #333;
+    border: 3px solid #4b6cb7;
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    color: #666;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.contact {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.box2 {
+    max-width: 600px;
+    margin: auto;
+}
+
+.text input,
+.text textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.text textarea {
+    resize: vertical;
+}
+
+.Submit button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b6cb7;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Submit button:hover {
+    background-color: #182848;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:aqua;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ul,h1,li{
+    display: inline;
+
+}
+li{
+    color: darkblue;
+}
+li:hover{
+    color: red;
+}
+.home{
+    padding: 100px;
+    margin-left:600px ;
+}
+.text{
+    position: relative;
+    bottom: 460px;
+    left: 100px;
+
+}
+.text2{
+    padding-top: 40px;
+    font-style: oblique;
+    font-size: smaller;
+}
+.About{
+    padding-top: 300px;
+    padding-left: 60%;
+}
+.text3{
+    position: relative;
+    top: 350px;
+
+}
+.image2{
+    padding-top: 400px;
+    margin-left: 650px;
+    margin-bottom: 150px;
+
+}
+.text4{
+    position: relative;
+    right: 650px;
+    bottom: 350px;
+    font-style: oblique;
+}
+.Contact{
+    position: relative;
+    left: 400px;
+}
+.text5{
+    padding-top: 50px;
+    font-style: oblique;
+    padding-top: 50px;
+}
